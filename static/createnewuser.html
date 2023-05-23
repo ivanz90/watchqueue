@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="browsemovies.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div id="login-window" class="container">
+            <h1 class="text-center">WatchQueue</h1>
+            <h4 class="text-center">Create new user:</h4>
+            <form action="" id="signup-form">
+            <div class="form-group" id="usernameDiv">
+              <label for="username">Username:</label>
+              <input type="text" class="form-control" name="username" id="username">
+            </div>
+            <div class="form-group" id="emailDiv">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" name="email" id="email">
+                
+              </div>
+            <div class="form-group" id="passwordDiv">
+              <label for="password">Password:</label>
+              <input type="password" class="form-control" name="password" id="password">
+              
+            </div>
+            <div class="form-group" id="passwordDiv2">
+                <label for="password2">Confirm password:</label>
+                <input type="password" class="form-control" name="password2" id="password2">
+              </div>
+          
+            <div id="buttons">
+                <a href="./index.html"> <button id="cancel" type="button" class="btn btn-danger">Cancel</button></a>
+           <a href="./createnewuser.html"> <button id="signup" type="submit" class="btn btn-success">Confirm</button></a>
+        </div>
+        </form>
+          </div>
+    </div>
+
+    <script src="createnewuser.js"></script>
+  </body>
+</html>

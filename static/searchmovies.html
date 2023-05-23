@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="browsemovies.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="showcase-container">
+        <div id="showcase">
+          <div id="form">
+            <form class="form-inline">
+              <legend>First, fill the criteria below:</legend>
+              <div id="discover">
+                <div class="form-group">
+                  <select class="form-control" id="genre">
+                    <option value="">All Genres</option>
+                    <option value="&with_genres=28">Action</option>
+                    <option value="&with_genres=12">Adventure</option>
+                    <option value="&with_genres=16">Animation</option>
+                    <option value="&with_genres=35">Comedy</option>
+                    <option value="&with_genres=80">Crime</option>
+                    <option value="&with_genres=99">Documentary</option>
+                    <option value="&with_genres=18">Drama</option>
+                    <option value="&with_genres=10751">Family</option>
+                    <option value="&with_genres=14">Fantasy</option>
+                    <option value="&with_genres=36">History</option>
+                    <option value="&with_genres=27">Horror</option>
+                    <option value="&with_genres=10402">Music</option>
+                    <option value="&with_genres=9648">Mystery</option>
+                    <option value="&with_genres=10749">Romance</option>
+                    <option value="&with_genres=878">Science Fiction</option>
+                    <option value="&with_genres=10770">TV Movie</option>
+                    <option value="&with_genres=53">Thriller</option>
+                    <option value="&with_genres=10752">War</option>
+                    <option value="&with_genres=37">Western</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="rating">
+                    <option value="">All Ratings</option>
+                    <option value="1">1+</option>
+                    <option value="2">2+</option>
+                    <option value="3">3+</option>
+                    <option value="4">4+</option>
+                    <option value="5">5+</option>
+                    <option value="6">6+</option>
+                    <option value="7">7+</option>
+                    <option value="8">8+</option>
+                    <option value="9">9+</option>
+                  </select>
+                </div>
+                <div id="form-group">
+                  <select class="form-control" id="year">
+                    <option value="0">All Years</option>
+                    <option value="primary_release_year=2023">2023</option>
+                    <option value="primary_release_year=2022">2022</option>
+                    <option value="primary_release_year=2021">2021</option>
+                    <option value="primary_release_year=2020">2020</option>
+                    <option value="primary_release_year=2019">2019</option>
+                    <option value="primary_release_date.lte=2018-12-31&primary_release_date.gte=2015-01-01">2015-2018</option>
+                    <option value="primary_release_date.lte=2014-12-31&primary_release_date.gte=2010-01-01">2010-2014</option>
+                    <option value="primary_release_date.lte=2009-12-31&primary_release_date.gte=2000-01-01">2000-2009</option>
+                    <option value="primary_release_date.lte=1999-12-31&primary_release_date.gte=1990-01-01">1990-1999</option>
+                    <option value="primary_release_date.lte=1989-12-31">before 1990</option>
+                  </select>
+                </div>
+                <div id="form-group">
+                  <select class="form-control" id="order-by">
+                    <option value="release_date.desc">Newest</option>
+                    <option value="release_date.asc">Oldest</option>
+                    <option value="popularity.desc">Popular</option>
+                    <option value="title.asc">Alphabetical</option>
+                    <option value="vote_average.desc">Rating</option>
+                  </select>
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+              <div id="search3">
+                <legend>Now, search from the results you have got:</legend>
+                <div class="form-group">
+                  <label for="movieSearch">Search Movies</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="movieSearch"
+                    placeholder="Search by movie title"
+                  />
+                </div>
+             <!--    <button id="search2" type="submit" class="btn btn-primary">
+                  Search
+                </button> -->
+              </div>
+            </form>
+          </div>
+          <div id="results" style="border: none;">
+            <!--  <div class="row row-cols-1 row-cols-sm-6 g-4">
+            <div class="col">
+              <div class="card card-img-top" style="width: 15rem">
+                <img
+                  src="./img/mmm_home.webp"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Movie Title</h5>
+                  <p class="card-text">Release Year: 2022</p>
+                  <div class="card-footer">
+                    <div class="row">
+                      <div class="col-6">
+                        <button
+                          id="favourites"
+                          class="btn btn-primary btn-block"
+                        >
+                          Add to Favourites
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <button
+                          id="details"
+                          class="btn btn-secondary btn-block"
+                        >
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row row-cols-2 row-cols-sm-6 g-4">
+            <div class="col">
+              <div class="card card-img-top" style="width: 15rem">
+                <img
+                  src="./img/mmm_home.webp"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Movie Title</h5>
+                  <p class="card-text">Release Year: 2022</p>
+                  <div class="card-footer">
+                    <div class="row">
+                      <div class="col-6">
+                        <button
+                          id="favourites"
+                          class="btn btn-primary btn-block"
+                        >
+                          Add to Favourites
+                        </button>
+                      </div>
+                      <div class="col-6">
+                        <button
+                          id="details"
+                          class="btn btn-secondary btn-block"
+                        >
+                          View Details
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>-->
+          </div>
+        </div>
+        <div id="side-nav">
+          <ul id="side-nav-list">
+            <div id="headline"><h2>WatchQueue</h2></div>
+            <li id="create-playlist">
+              <a href="./createplaylist.html"><button class="btn btn-success">+ Create Playlist</button></a>
+            </li>
+            <li><a href="./homepage.html">Discover</a></li>
+            <li><a href="./myplaylists.html">My playlists</a></li>
+            <li><a href="./favorites.html">Favorites</a></li>
+            <li><a href="./browsemovies.html">Browse movies</a></li>
+            <li><a href="#"><strong> Search movies</strong></a></li>
+
+          
+            <li>
+              <div class="pagination">
+                <span id="previous">&nbsp;</span>
+                <span id="page">1</span>
+                <span id="next">></span>
+              </div>
+            </li>
+            <li><button id="logout" class="btn btn-danger" onclick="logout()">Logout</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="details-window"></div>
+    <script src="searchmovies.js"></script>
+  </body>
+</html>

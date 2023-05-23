@@ -1,0 +1,429 @@
+{
+    "playlists": [
+      {
+        "name": "Marvel Movies",
+        "desc": "Marvel Cinematic Universe: a world of heroes, villains, and epic battles that have captivated audiences worldwide. From Iron Man's first suit to Spider-Man's web-slinging acrobatics, the Marvel movies have brought our favorite comic book characters to life on the big screen. Join the Avengers as they battle against Thanos to save the universe, or witness the rise of the Black Panther and the introduction of the first female-led Marvel movie, Captain Marvel. With breathtaking action sequences and a star-studded cast, the Marvel Cinematic Universe is a thrilling adventure that will leave you on the edge of your seat.",
+        "movies": [
+          {
+            "title": "Ant-Man and the Wasp: Quantumania",
+            "releaseYear": "2023",
+            "image": "https://image.tmdb.org/t/p/w500/ngl2FKBlU4fhbdsrtdom9LVLBXw.jpg"
+          },
+          {
+            "title": "Guardians of the Galaxy Volume 3",
+            "releaseYear": "2023",
+            "image": "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg"
+          },
+          {
+            "title": "Black Panther: Wakanda Forever",
+            "releaseYear": "2022",
+            "image": "https://image.tmdb.org/t/p/w500/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
+          },
+          {
+            "title": "Guardians of the Galaxy Vol. 2",
+            "releaseYear": "2017",
+            "image": "https://image.tmdb.org/t/p/w500/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg"
+          },
+          {
+            "title": "Thor: Love and Thunder",
+            "releaseYear": "2022",
+            "image": "https://image.tmdb.org/t/p/w500/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg"
+          },
+          {
+            "title": "Spider-Man: No Way Home",
+            "releaseYear": "2021",
+            "image": "https://image.tmdb.org/t/p/w500/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg"
+          },
+          {
+            "title": "The Guardians of the Galaxy Holiday Special",
+            "releaseYear": "2022",
+            "image": "https://image.tmdb.org/t/p/w500/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg"
+          },
+          {
+            "title": "Guardians of the Galaxy",
+            "releaseYear": "2014",
+            "image": "https://image.tmdb.org/t/p/w500/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg"
+          },
+          {
+            "title": "Avengers: Infinity War",
+            "releaseYear": "2018",
+            "image": "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+          },
+          {
+            "title": "Doctor Strange in the Multiverse of Madness",
+            "releaseYear": "2022",
+            "image": "https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+          },
+          {
+            "title": "Shang-Chi and the Legend of the Ten Rings",
+            "releaseYear": "2021",
+            "image": "https://image.tmdb.org/t/p/w500/d08HqqeBQSwN8i8MEvpsZ8Cb438.jpg"
+          },
+          {
+            "title": "The Avengers",
+            "releaseYear": "2012",
+            "image": "https://image.tmdb.org/t/p/w500/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+          },
+          {
+            "title": "Eternals",
+            "releaseYear": "2021",
+            "image": "https://image.tmdb.org/t/p/w500/lFByFSLV5WDJEv3KabbdAF959F2.jpg"
+          },
+          {
+            "title": "Avengers: Endgame",
+            "releaseYear": "2019",
+            "image": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg"
+          },
+          {
+            "title": "Avengers: Age of Ultron",
+            "releaseYear": "2015",
+            "image": "https://image.tmdb.org/t/p/w500/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg"
+          },
+          {
+            "title": "Black Widow",
+            "releaseYear": "2021",
+            "image": "https://image.tmdb.org/t/p/w500/kwB7d51AIcyzPOBOHLCEZJkmPhQ.jpg"
+          },
+          {
+            "title": "Groot's First Steps",
+            "releaseYear": "2022",
+            "image": "https://image.tmdb.org/t/p/w500/1ifiV9ZJD4tC3tRYcnLIzH0meaB.jpg"
+          },
+          {
+            "title": "Iron Man",
+            "releaseYear": "2008",
+            "image": "https://image.tmdb.org/t/p/w500/78lPtwv72eTNqFW9COBYI0dWDJa.jpg"
+          },
+          {
+            "title": "Thor",
+            "releaseYear": "2011",
+            "image": "https://image.tmdb.org/t/p/w500/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg"
+          },
+          {
+            "title": "Spider-Man: Homecoming",
+            "releaseYear": "2017",
+            "image": "https://image.tmdb.org/t/p/w500/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Harry Potter marathon",
+        "desc": "Harry Potter, the boy who lived, takes us on a thrilling adventure into the world of magic, where the impossible becomes possible. Join Harry, Hermione, and Ron as they battle against the dark forces of Voldemort, explore the mysterious Hogwarts castle, and uncover ancient secrets of the wizarding world. With spells, potions, and magical creatures at every turn, the Harry Potter movies will enchant and captivate you until the very end. Discover the magic for yourself and enter the wizarding world of Harry Potter!",
+        "movies": [
+          {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "year": 2001,
+            "image": "https://image.tmdb.org/t/p/w500/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+          },
+          {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "year": 2009,
+            "image": "https://image.tmdb.org/t/p/w500/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg"
+          },
+          {
+            "title": "Harry Potter and the Deathly Hallows: Part 1",
+            "year": 2010,
+            "image": "https://image.tmdb.org/t/p/w500/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
+          },
+          {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "year": 2004,
+            "image": "https://image.tmdb.org/t/p/w500/aWxwnYoe8p2d2fcxOqtvAtJ72Rw.jpg"
+          },
+          {
+            "title": "Harry Potter and the Deathly Hallows: Part 2",
+            "year": 2011,
+            "image": "https://image.tmdb.org/t/p/w500/c54HpQmuwXjHq2C9wmoACjxoom3.jpg"
+          },
+          {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "year": 2007,
+            "image": "https://image.tmdb.org/t/p/w500/5aOyriWkPec0zUDxmHFP9qMmBaj.jpg"
+          },
+          {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "year": 2002,
+            "image": "https://image.tmdb.org/t/p/w500/sdEOH0992YZ0QSxgXNIGLq1ToUi.jpg"
+          },
+          {
+            "title": "Harry Potter and the Goblet of Fire",
+            "year": 2005,
+            "image": "https://image.tmdb.org/t/p/w500/fECBtHlr0RB3foNHDiCBXeg9Bv9.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Middle Earth Journey",
+        "desc": "In a world of magic and danger, the fate of Middle-earth lies in the hands of a small group of heroes. Join Frodo, Gandalf, and Aragorn as they journey through epic battles and treacherous landscapes to destroy the One Ring and defeat the forces of darkness. Follow Bilbo as he sets out on a quest to reclaim the Dwarf Kingdom of Erebor, encountering trolls, goblins, and dragons along the way. With stunning visuals and heart-pumping action, the Lord of the Rings and Hobbit series will transport you to a world of adventure you'll never forget.",
+        "movies": [
+          {
+            "title": "The Lord of the Rings",
+            "year": 1978,
+            "image": "https://image.tmdb.org/t/p/w500/liW0mjvTyLs7UCumaHhx3PpU4VT.jpg"
+          },
+          {
+            "title": "The Lord of the Rings: The Two Towers",
+            "year": 2002,
+            "image": "https://image.tmdb.org/t/p/w500/5VTN0pR8gcqV3EPUHHfMGnJYN9L.jpg"
+          },
+          {
+            "title": "The Lord of the Rings: The Fellowship of the Ring",
+            "year": 2001,
+            "image": "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
+          },
+          {
+            "title": "The Lord of the Rings: The Return of the King",
+            "year": 2003,
+            "image": "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
+          },
+          {
+            "title": "The Hobbit: The Battle of the Five Armies",
+            "year": 2014,
+            "image": "https://image.tmdb.org/t/p/w500/xT98tLqatZPQApyRmlPL12LtiWp.jpg"
+          },
+          {
+            "title": "The Hobbit: An Unexpected Journey",
+            "year": 2012,
+            "image": "https://image.tmdb.org/t/p/w500/yHA9Fc37VmpUA5UncTxxo3rTGVA.jpg"
+          },
+          {
+            "title": "The Hobbit: The Desolation of Smaug",
+            "year": 2013,
+            "image": "https://image.tmdb.org/t/p/w500/xQYiXsheRCDBA39DOrmaw1aSpbk.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Star Wars galaxy",
+        "desc": "A long time ago in a galaxy far, far away... Follow the epic journey of the Skywalker family, a band of rebels, and a lovable band of droids as they battle against the evil Empire and their fearsome Sith Lords. With lightsabers, the Force, and plenty of interstellar action, the Star Wars saga takes viewers on an unforgettable adventure through the vast expanse of space.",
+        "movies": [
+          {
+            "title": "Star Wars",
+            "year": 1977,
+            "image": "https://image.tmdb.org/t/p/w500/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg"
+          },
+          
+          {
+            "title": "Star Wars: The Force Awakens",
+            "year": 2015,
+            "image": "https://image.tmdb.org/t/p/w500/wqnLdwVXoBjKibFRR5U3y0aDUhs.jpg"
+          },
+          {
+            "title": "Star Wars: The Last Jedi",
+            "year": 2017,
+            "image": "https://image.tmdb.org/t/p/w500/kOVEVeg59E0wsnXmF9nrh6OmWII.jpg"
+          },
+          {
+            "title": "Star Wars: The Rise of Skywalker",
+            "year": 2019,
+            "image": "https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg"
+          },
+          {
+            "title": "Solo: A Star Wars Story",
+            "year": 2018,
+            "image": "https://image.tmdb.org/t/p/w500/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg"
+          },
+          
+          {
+            "title": "Rogue One: A Star Wars Story",
+            "year": 2016,
+            "image": "https://image.tmdb.org/t/p/w500/i0yw1mFbB7sNGHCs7EXZPzFkdA1.jpg"
+          },
+          
+          {
+            "title": "Star Wars: Episode I - The Phantom Menace",
+            "year": 1999,
+            "image": "https://image.tmdb.org/t/p/w500/6wkfovpn7Eq8dYNKaG5PY3q2oq6.jpg"
+          },
+          {
+            "title": "Star Wars: The Clone Wars",
+            "year": 2008,
+            "image": "https://image.tmdb.org/t/p/w500/d6YOfi0T9GowglzIkDQGGvGYVTM.jpg"
+          },
+         
+         
+          {
+            "title": "Star Wars: Episode III - Revenge of the Sith",
+            "year": 2005,
+            "image": "https://image.tmdb.org/t/p/w500/xfSAoBEm9MNBjmlNcDYLvLSMlnq.jpg"
+          },
+         
+          {
+            "title": "Star Wars: Episode II - Attack of the Clones",
+            "year": 2002,
+            "image": "https://image.tmdb.org/t/p/w500/oZNPzxqM2s5DyVWab09NTQScDQt.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Enter the Matrix",
+        "desc": "In a world controlled by artificial intelligence, one man discovers the truth and fights to free humanity from their virtual prison. The Matrix is a mind-bending journey through a dystopian future, filled with action, philosophy, and groundbreaking special effects. Follow Neo as he navigates the thin line between reality and illusion, and the fate of the human race hangs in the balance.",
+        "movies": [
+          
+          {
+            "title": "The Matrix Resurrections",
+            "year": 2021,
+            "image": "https://image.tmdb.org/t/p/w500/8c4a8kE7PizaGQQnditMmI1xbRp.jpg"
+          },
+          {
+            "title": "The Matrix",
+            "year": 1999,
+            "image": "https://image.tmdb.org/t/p/w500/f89U3ADr1oiB1s9GkdPOEpXUk5H.jpg"
+          },
+          {
+            "title": "The Matrix Reloaded",
+            "year": 2003,
+            "image": "https://image.tmdb.org/t/p/w500/9TGHDvWrqKBzwDxDodHYXEmOE6J.jpg"
+          },
+    
+          {
+            "title": "The Matrix Revolutions",
+            "year": 2003,
+            "image": "https://image.tmdb.org/t/p/w500/qEWiBXJGXK28jGBAm8oFKKTB0WD.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Twilight Saga",
+        "desc": "In the town of Forks, Washington, a teenage girl named Bella Swan falls in love with a mysterious boy named Edward Cullen. But Edward and his family are not what they seem - they are vampires. As Bella gets drawn deeper into Edward's world, she discovers a world of danger, romance, and forbidden love that she never knew existed. With werewolves, rival vampire clans, and a love triangle that spans generations, the Twilight series is a thrilling and heart-wrenching tale of love, sacrifice, and the struggle to belong.",
+        "movies": [
+          {
+            "title": "Twilight",
+            "year": 2008,
+            "image": "https://image.tmdb.org/t/p/w500/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg"
+          },
+          {
+            "title": "The Twilight Saga: Eclipse",
+            "year": 2010,
+            "image": "https://image.tmdb.org/t/p/w500/3mFM80dPzSqoXXuC2UMvLIRWX32.jpg"
+          },
+          {
+            "title": "The Twilight Saga: Breaking Dawn - Part 2",
+            "year": 2012,
+            "image": "https://image.tmdb.org/t/p/w500/7IGdPaKujv0BjI0Zd0m0a4CzEjJ.jpg"
+          },
+          {
+            "title": "The Twilight Saga: New Moon",
+            "year": 2009,
+            "image": "https://image.tmdb.org/t/p/w500/j5jM5pq78ObAXX1WhTsb115EkLl.jpg"
+          },
+          {
+            "title": "The Twilight Saga: Breaking Dawn - Part 1",
+            "year": 2011,
+            "image": "https://image.tmdb.org/t/p/w500/qs8LsHKYlVRmJbFUiSUhhRAygwj.jpg"
+          }
+        ]
+      },
+      {
+        "name": "John Wick movies",
+        "desc": "John Wick is a gripping action-packed movie series that follows a retired hitman seeking vengeance after the death of his beloved dog. With non-stop thrilling sequences and a heart-pumping soundtrack, this epic tale of revenge takes you on a high-octane ride through the dark and dangerous underworld of assassins, where Wick will stop at nothing to protect what's left of his shattered life. Get ready to witness the ultimate killing machine in action as he seeks justice, one bullet at a time.",
+        "movies": [
+          {
+            "title": "John Wick: Chapter 4",
+            "year": 2023,
+            "image": "https://image.tmdb.org/t/p/w500/vZloFAK7NmvMGKE7VkF5UHaz0I.jpg"
+          },
+          {
+            "title": "John Wick",
+            "year": 2014,
+            "image": "https://image.tmdb.org/t/p/w500/wXqWR7dHncNRbxoEGybEy7QTe9h.jpg"
+          },
+          {
+            "title": "John Wick: Chapter 3 - Parabellum",
+            "year": 2019,
+            "image": "https://image.tmdb.org/t/p/w500/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg"
+          },
+          {
+            "title": "John Wick: Chapter 2",
+            "year": 2017,
+            "image": "https://image.tmdb.org/t/p/w500/hXWBc0ioZP3cN4zCu6SN3YHXZVO.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Batman collection",
+        "desc": "Get ready for an action-packed adventure with the Dark Knight! Join us for our Batman movie marathon and experience the excitement of Gotham City with all your favorite characters. From the iconic Michael Keaton to the brooding Christian Bale, this event has something for every fan of the Caped Crusader. Don't miss out on this thrilling cinematic journey through the Batman universe!",
+        "movies": [
+          {
+            "title": "Batman",
+            "year": 1989,
+            "image": "https://image.tmdb.org/t/p/w500/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg"
+          },
+          {
+            "title": "The Batman",
+            "year": 2022,
+            "image": "https://image.tmdb.org/t/p/w500/74xTEgt7R36Fpooo50r9T25onhq.jpg"
+          },
+          {
+            "title": "Batman Begins",
+            "year": 2005,
+            "image": "https://image.tmdb.org/t/p/w500/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg"
+          },
+          {
+            "title": "Batman Returns",
+            "year": 1992,
+            "image": "https://image.tmdb.org/t/p/w500/jKBjeXM7iBBV9UkUcOXx3m7FSHY.jpg"
+          },
+          {
+            "title": "Batman & Robin",
+            "year": 1997,
+            "image": "https://image.tmdb.org/t/p/w500/cGRDufDDSrFrv7VI4YnmWnslne0.jpg"
+          },
+          {
+            "title": "Batman: The Dark Knight Returns, Part 1",
+            "year": 2012,
+            "image": "https://image.tmdb.org/t/p/w500/kkjTbwV1Xnj8wBL52PjOcXzTbnb.jpg"
+          },
+          {
+            "title": "Batman Forever",
+            "year": 1995,
+            "image": "https://image.tmdb.org/t/p/w500/mzzNBVwTiiY94xAXDMWJpNPW2US.jpg"
+          },
+          {
+            "title": "Batman: The Dark Knight Returns, Part 2",
+            "year": 2013,
+            "image": "https://image.tmdb.org/t/p/w500/arEZYd6uMOFTILne9Ux0A8qctMe.jpg"
+          }
+        ]
+      },
+      {
+        "name": "Pirates of the Caribbean",
+        "desc": "Ahoy there matey! Ready to embark on a swashbuckling adventure on the high seas? Then set sail with the notorious Captain Jack Sparrow and his motley crew as they search for treasure, battle deadly enemies, and navigate through treacherous waters in the epic Pirates of the Caribbean series. From cursed Aztec gold to the Fountain of Youth, there's no shortage of excitement and danger in this thrilling franchise. So hoist the Jolly Roger and join the crew, but beware, for danger and adventure await at every turn!",
+        "movies": [
+          {
+            "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+            "year": 2003,
+            "image": "https://image.tmdb.org/t/p/w500/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg"
+          },
+          {
+            "title": "Pirates of the Caribbean: On Stranger Tides",
+            "year": 2011,
+            "image": "https://image.tmdb.org/t/p/w500/keGfSvCmYj7CvdRx36OdVrAEibE.jpg"
+          },
+          {
+            "title": "Pirates of the Caribbean: At World's End",
+            "year": 2007,
+            "image": "https://image.tmdb.org/t/p/w500/jGWpG4YhpQwVmjyHEGkxEkeRf0S.jpg"
+          },
+          {
+            "title": "Pirates of the Caribbean: Dead Man's Chest",
+            "year": 2006,
+            "image": "https://image.tmdb.org/t/p/w500/uXEqmloGyP7UXAiphJUu2v2pcuE.jpg"
+          },
+          {
+            "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+            "year": 2017,
+            "image": "https://image.tmdb.org/t/p/w500/qwoGfcg6YUS55nUweKGujHE54Wy.jpg"
+          }
+          
+        ]
+      }
+    ]
+  }
+  
+  
+  
+  
+  
+  
+  

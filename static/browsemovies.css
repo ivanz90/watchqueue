@@ -1,0 +1,411 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 1.5rem auto;
+  background-image: url(./img/background.jpg);
+}
+#container {
+  margin: 0 auto;
+  width: 90vw;
+  background-color: transparent;
+  height: fit-content;
+  border-radius: 10px;
+}
+#showcase-container {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  column-gap: 10px;
+}
+#results {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  column-gap: 3.2rem;
+  row-gap: 3rem;
+  color: white;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
+#showcase {
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 3.2rem;
+  row-gap: 3rem;
+  color: white;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
+#side-nav {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  border: 1px solid #aaa;
+  height: 100%;
+  padding-left: 20px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
+#side-nav-list {
+  padding: 0 32px 0 0;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
+#side-nav-list li {
+  height: 50px;
+  padding: 10px 0;
+  list-style-type: none;
+  border-radius: 10px;
+  vertical-align: bottom;
+}
+#side-nav-list li a {
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+}
+#side-nav-list li a:hover {
+  font-weight: bold;
+}
+#headline {
+  margin-bottom: 10px;
+}
+#search {
+  border-radius: 10px;
+  height: 35px;
+}
+#create-playlist {
+  width: 150px;
+}
+#logout {
+  width: 150px;
+}
+strong {
+  font-size: 1.4rem;
+}
+/* card */
+
+.card {
+  background-color: #aaa;
+}
+.card-img-top {
+  height: 425px;
+  margin: 0;
+}
+.card-img-top img {
+  height: 350px;
+}
+.card-title {
+  margin: 0;
+  font-size: 1.05rem;
+  height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+.card-text {
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+.card-body {
+  top: 357px;
+  height: 100px;
+  padding: 0;
+}
+.card-body button {
+  font-size: 0.7em;
+  padding: 0.2em;
+  width: 100px;
+  padding: 0;
+}
+.card-footer {
+  padding-top: 5px;
+  display: flex;
+}
+.col-6 {
+  padding: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#detailsW {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #333333;
+}
+#details-content {
+  background-color: #999;
+  margin: 10% auto;
+  width: 40%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  animation: modal 2s;
+}
+#details-header {
+  font-size: 1.5em;
+  text-align: center;
+}
+.closeBtn {
+  width: 30px;
+  line-height: 30px;
+  color: white;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+#details-body {
+  padding: 10px 20px 0px 20px;
+  color: black;
+  text-align: center;
+}
+.slika {
+  width: 400px;
+  margin-bottom: 2rem;
+}
+table td,
+table tr {
+  text-align: left;
+  vertical-align: top;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+#form {
+  width: 100%;
+}
+
+#search3 {
+  visibility: hidden;
+}
+#page {
+  color: white;
+  font-size: large;
+  text-align: center;
+  width: 35px;
+}
+#next,
+#previous,
+#total {
+  color: white;
+  font-weight: 1000;
+  font-size: large;
+  width: 35px;
+  text-align: center;
+  padding: 0;
+  cursor: pointer;
+}
+#next:hover,
+#previous:hover,
+#total:hover {
+  scale: 1.1;
+}
+#listOfMovies,
+h2,
+legend,
+form label,
+ul,
+li {
+  color: white;
+}
+#listOfMovies {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-top: 10px;
+}
+#favorites-window {
+  display: none;
+  position: absolute;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  column-gap: 3rem;
+  justify-content: center;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #333333;
+  animation: modal 1s;
+}
+#login-window {
+  color: white;
+  width: 600px;
+  height: fit-content;
+  margin-top: 10rem;
+  background-color: #333333;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+#buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+#login,
+#signup,
+#cancel {
+  width: 150px;
+}
+#myplaylists {
+  grid-column: 2/3;
+  color: white;
+  border: 1px solid #aaa;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #1a1a1a;
+}
+#playlist-details {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+#playlist-details select {
+  width: 250px;
+}
+#playlist-details button {
+  width: 130px;
+  height: 38px;
+}
+#playlist-desc {
+  min-height: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+#closeBtn {
+  position: absolute;
+  right: 10px;
+}
+#discover {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+}
+#discover select {
+  width: 200px;
+}
+
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 1.5rem auto;
+  }
+
+  #showcase {
+    width: 70vw;
+  }
+  #side-nav {
+    width: 20vw;
+    font-size: 0.8rem;
+  }
+  #side-nav button {
+    scale: 0.9;
+  }
+  #headline {
+    scale: 0.7;
+  }
+  strong {
+    font-size: 1rem;
+  }
+  #discover {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  #container {
+    width: 95vw;
+  }
+  .card {
+    scale: 0.8;
+  }
+  #results {
+    gap: 0.5rem;
+  }
+  li {
+    height: 0.5rem;
+  }
+  #side-nav {
+    padding-left: 0.1rem;
+  }
+  #side-nav button {
+    scale: 0.8;
+  }
+}
+@media screen and (max-width: 425px) {
+  #showcase-container {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  #side-nav {
+    height: 100px;
+    display: flex;
+    width: 90vw;
+    height: fit-content;
+  }
+  #side-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  #side-nav-list li a {
+    font-size: 1em;
+  }
+  #side-nav-list li {
+    height: 40px;
+    width: 175px;
+    text-align: center;
+  }
+  #showcase {
+    width: 90vw;
+    justify-content: center;
+  }
+  legend {
+    font-size: 1rem;
+  }
+  #side-nav-list #headline {
+    position: absolute;
+    top: 270px;
+    right: 20px;
+  }
+  #playlist-details {
+    display: flex;
+    flex-direction: column;
+  }
+  #results {
+    width: 90vw;
+    justify-content: center;
+  }
+}

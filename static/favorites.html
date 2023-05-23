@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create your movie playlist</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="browsemovies.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="showcase-container">
+        <div id="showcase">
+        
+         <!--  <div class="row row-cols-1 row-cols-sm-6 g-4">
+            <div class="col">
+              <div class="card card-img-top" style="width: 15rem">
+                <img
+                  src="./img/mmm_home.webp"
+                  class="card-img-top h-100"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Movie Title</h5>
+                  <p class="card-text">Release Year: 2022</p>
+                  <div class="card-footer d-flex justify-content-center">
+                  
+                        <button id="details" class="btn btn-danger w-75">
+                          Remove from favorites
+                        </button>
+                      </div>
+                    
+                </div>
+              </div>
+            </div>
+          </div> -->
+          
+        </div>
+
+        <div id="side-nav">
+          <ul id="side-nav-list">
+            <div id="headline"><h2>WatchQueue</h2></div>
+            <li id="create-playlist">
+              <a href="./createplaylist.html">  <button class="btn btn-success">+ Create Playlist</button></a>
+            </li>
+            <li><a href="./homepage.html">Discover</a></li>
+            <li><a href="./myplaylists.html">My playlists</a></li>
+            <li><a href="#"><strong>Favorites</strong></a></li>
+            <li><a href="./browsemovies.html">Browse movies</a></li>
+            <li><a href="./searchmovies.html">Search movies</a></li>
+
+          
+     
+            <li><button id="logout" class="btn btn-danger" onclick="logout()">Logout</button></li>
+         
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id = "details-window">
+     
+    </div>
+
+    <script src="./favorites.js"></script>
+  </body>
+</html>
